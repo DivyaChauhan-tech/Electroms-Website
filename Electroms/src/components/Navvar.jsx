@@ -60,7 +60,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="top-[48px] left-0 right-0 z-[9999] bg-[#FFFFFF] border-b border-gray-200 w-full">
+    <nav className="fixed left-0 right-0 z-[9999] bg-[#FFFFFF] border-b border-gray-200 w-full top-[0px]">
       <div className="max-w-[1000px] mx-auto flex items-center justify-between px-4 py-4">
         <a href="#" className="flex items-center">
           <img src={logo} alt="logo" className="h-[55px] sm:h-[50px]" />

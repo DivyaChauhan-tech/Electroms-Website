@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <>
       <TopHeader />
       <Navbar />
-      <div className="pt-[130px] sm:pt-[120px]">
+      <div className="pt-[85px] sm:pt-[83px]">
         {children}
       </div>
       <MapSection />

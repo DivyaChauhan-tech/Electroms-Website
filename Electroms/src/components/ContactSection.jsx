@@ -80,7 +80,7 @@ export default function ContactSection() {
     setSuccessMessage("");
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/backend/send-email.php`, {
+      const response = await fetch("/backend/send-email.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

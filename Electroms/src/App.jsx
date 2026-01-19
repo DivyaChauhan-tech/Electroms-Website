@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import TopHeader from "./components/TopHeader";
+// import TopHeader from "./components/TopHeader";
 import Navbar from "./components/Navvar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -26,7 +26,7 @@ import AboutPage from "./pages/About";
 
 const HomePage = () => (
   <>
-    <TopHeader />
+    {/* <TopHeader /> */}
     <Navbar />
     <Hero />
     <About />

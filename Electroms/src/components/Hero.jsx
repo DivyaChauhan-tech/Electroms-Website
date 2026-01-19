@@ -27,7 +27,7 @@ function Hero() {
           <div
             key={index}
             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${
-              index === current ? "opacity-100" : "opacity-0"
+              index === current ? "opacity-90" : "opacity-0"
             }`}
             style={{ backgroundImage: `url(${img})` }}
           />
@@ -48,7 +48,7 @@ function Hero() {
             md:text-[2.8rem] 
             lg:text-[3.2rem] 
             leading-tight">
-            Electrom Communication
+            Electrom Communications
           </h1>
 
           <p className="text-white 

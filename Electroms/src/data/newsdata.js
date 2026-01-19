@@ -1,5 +1,5 @@
 import logo1 from "../assets/punjbgov.png";
-import logo2 from "../assets/l2.png";
+import logo2 from "../assets/indus.png";
 import logo3 from "../assets/punjbgov.png";
 import logo4 from "../assets/RajasthanGov.png";
 import logo5 from "../assets/punjbgov.png";

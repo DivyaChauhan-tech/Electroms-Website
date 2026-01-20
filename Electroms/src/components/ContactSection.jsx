@@ -73,28 +73,25 @@ export default function ContactSection() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (!validate()) return;
-
+  
     setLoading(true);
     setSuccessMessage("");
-
+  
     try {
-      const response = await fetch("/backend/send-email.php", {
+      const response = await fetch("https://formspree.io/f/xpqqldvl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify(formData),
       });
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
+  
       const result = await response.json();
-
-      if (result.success) {
+  
+      if (response.ok) {
         setSuccessMessage("✅ Message sent successfully!");
         setFormData({
           name: "",
@@ -104,17 +101,16 @@ export default function ContactSection() {
           category: "",
           message: "",
         });
-        setTimeout(() => setSuccessMessage(""), 5000);
       } else {
-        setErrors({ submit: result.error || "Failed to send email" });
+        setErrors({ submit: result.error || "Failed to send message" });
       }
     } catch (error) {
       setErrors({ submit: "Network error. Please try again." });
-      console.error("Error:", error);
     } finally {
       setLoading(false);
     }
   };
+  
 
   return (
     <section 

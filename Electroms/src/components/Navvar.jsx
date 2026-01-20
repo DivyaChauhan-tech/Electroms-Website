@@ -41,6 +41,7 @@ function Navbar() {
   }, [location.pathname]);
 
   const handleSmoothScroll = (sectionId) => {
+    setOpen(false);
     navigate("/");
     setTimeout(() => {
       if (sectionId === "home") {
@@ -122,17 +123,17 @@ function Navbar() {
             </li>
 
             <li
-              className="relative"
-              onMouseEnter={() => setProductOpen(true)}
-              onMouseLeave={() => setProductOpen(false)}
+             className="relative"
+             onMouseEnter={() => setProductOpen(true)}
+             onMouseLeave={() => setProductOpen(false)}
             >
-              <button 
-                onClick={() => handleSmoothScroll("products")}
-                className={`text-[12px] font-medium px-2 py-1.5 transition-colors ${
-                  activeSection === "products" ? "text-[#FF5E14]" : "text-black hover:text-[#FF5E14]"
-                }`}>
-                Our Product
-              </button>
+             <button 
+               onClick={() => setProductOpen(!productOpen)}
+               className={`text-[12px] font-medium px-2 py-1.5 transition-colors ${
+                 activeSection === "products" ? "text-[#FF5E14]" : "text-black hover:text-[#FF5E14]"
+               }`}>
+               Our Product
+             </button>
 
               {productOpen && (
                 <ul className="absolute top-full left-0 bg-white/95 shadow-lg min-w-[220px] p-2 z-50">
@@ -150,6 +151,7 @@ function Navbar() {
                     <li key={text}>
                       <Link
                         to={link}
+                        onClick={() => setOpen(false)}
                         className="block px-3 py-2 text-sm text-black hover:bg-gray-100"
                       >
                         {text}

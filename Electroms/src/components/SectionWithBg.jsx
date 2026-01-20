@@ -16,19 +16,13 @@ function SectionWithBg() {
         backgroundAttachment: "local"
       }}
     >
-      {/* Content wrapper */}
       <div className="relative z-10 w-full">
-        {/* About Section */}
         <div className="py-12 md:py-16 lg:py-20">
           <AboutSection />
         </div>
-
-        {/* Feature Box Section */}
         <div className="py-12 md:py-16 lg:py-20 px-4">
           <FeatureBox />
         </div>
-
-        {/* Latest News Section */}
         <div className="py-12 md:py-16 lg:py-20 px-4">
           <LatestNews />
         </div>

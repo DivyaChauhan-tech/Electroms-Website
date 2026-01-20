@@ -27,12 +27,12 @@ function Hero() {
           <div
             key={index}
             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${
-              index === current ? "opacity-90" : "opacity-0"
+              index === current ? "opacity-100" : "opacity-10"
             }`}
             style={{ backgroundImage: `url(${img})` }}
           />
         ))}
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0"></div>
       </div>
 
       <div className="relative z-10 w-full max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-10">

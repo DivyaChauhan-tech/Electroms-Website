@@ -1,0 +1,9 @@
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=electromcomm@gmail.com
+MAIL_PASSWORD=bxmm rvik ziec bjvp
+MAIL_FROM_EMAIL=electromcomm@gmail.com
+MAIL_FROM_NAME=Electroms Contact Form
+MAIL_TO_EMAIL=electromcomm@gmail.com
+ALLOWED_ORIGIN=https://www.electromcommunications.com
+VITE_API_URL=https://www.electromcommunications.com

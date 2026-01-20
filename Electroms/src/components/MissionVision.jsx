@@ -27,9 +27,8 @@ const data = [
 export default function MissionVision() {
   return (
     <section className="py-16 px-4">
-      {/* ✅ Heading */}
       <div className="text-center mb-8 md:mb-10">
-        <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+        <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
           Our Mission And Vision
         </h2>
         <p className="text-center text-xs sm:text-sm text-[#777] max-w-2xl mx-auto">

@@ -21,7 +21,7 @@ export default function OurClient() {
   return (
     <section id="clients" className="w-full py-10 md:py-10 lg:py-10 px-2 sm:px-6 lg:px-8">
       <div className="max-w-[1000px] mx-auto">
-        <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+        <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
           Our Clients
         </h2>
         <p className="text-center text-xs sm:text-sm text-[#777] max-w-2xl mx-auto mb-8 md:mb-10">

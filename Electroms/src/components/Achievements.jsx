@@ -37,7 +37,7 @@ export default function Achievements() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="text-center md:text-left flex flex-col justify-between min-h-[270px] mt-8 md:mt-0">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-white">
               {slides[index].title}
             </h2>
 

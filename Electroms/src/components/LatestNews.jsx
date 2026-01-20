@@ -68,7 +68,7 @@ function LatestNews() {
         style={{ scrollMarginTop: "100px" }}
       >
         <div className="max-w-[1500px] mx-auto pt-32 md:pt-40 lg:pt-52">
-          <h2 className="text-center text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4">
+          <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 md:mb-8">
             Latest News
           </h2>
 

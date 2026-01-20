@@ -160,12 +160,6 @@ function Navbar() {
               )}
             </li>
           </ul>
-          <a
-            href="tel:0120 3221368"
-            className="hidden sm:inline-flex items-center gap-2 bg-[#FF5E14] text-white px-4 py-2 hover:bg-orange-600 transition font-medium text-[14px]"
-          >
-            <i className="bi bi-telephone"></i> 0120 3221368
-          </a>
         </div>
       </div>
     </nav>

@@ -10,7 +10,6 @@ function SectionWithBg() {
       className="relative w-full overflow-hidden"
       style={{ 
         backgroundImage: `url(${bgImg})`,
-        backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "repeat-y",
         backgroundAttachment: "local"

@@ -15,24 +15,24 @@ export default function About() {
           </h1>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center p-15 bg-[#c6daf5] space-y-1">
-        <p className="text-[#777] text-sm md:text-sm lg:text-sm text-center max-w-[700px]">
+      <div className="flex flex-col items-center justify-center py-10 bg-[#c6daf5] space-y-2 px-3">
+        <p className="text-[#777] text-xs md:text-sm lg:text-sm text-center max-w-[700px]">
           Electrom Communications has successfully participated in development of many advanced projects all over the world and has received awards and distinctions for its great solutions.
         </p>
-        <p className="text-[#777] text-sm md:text-sm lg:text-sm text-center max-w-[700px] mt-2">
+        <p className="text-[#777] text-xs md:text-sm lg:text-sm text-center max-w-[700px] mt-2">
           Today, our Research & Development facilities are counted among the best in the world. We develop and provide products, solutions and professional services for both developing and developed nations.
         </p>
       </div>
       <section className="w-full py-4 sm:py-6 md:py-8 lg:py-10 px-4 sm:px-6 lg:px-8">
-         <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
-           <div className="flex justify-center md:justify-end mt-6 md:mt-0">
+         <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-12 items-center">
+           <div className="flex justify-center md:justify-end mt-6 md:mt-0 order-2 md:order-1">
              <img
                src={aboutImg}
                alt="about us"
                className="w-full sm:w-5/6 md:w-full max-w-[380px] md:max-w-[480px] lg:max-w-[520px] h-auto"
              />
            </div>
-           <div className="md:pl-4 lg:pl-8">
+           <div className="md:pl-4 lg:pl-8 order-1 md:order-2">
              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
                Electrom Communications: Innovate. Excel. Serve.
              </h2>
@@ -58,11 +58,11 @@ export default function About() {
          </div>
        </section>
        <section className="w-full py-4 sm:py-6 md:py-8 lg:py-10 px-4 sm:px-6 lg:px-8 bg-[#c6daf5]">
-        <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center">
-          <div className="md:pl-4 lg:pl-8">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
-              Electrom Communications: Leadership in Action
-            </h2>
+         <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:gap-12 items-center">
+           <div className="md:pl-4 lg:pl-8 order-1 md:order-1">
+             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
+               Electrom Communications: Leadership in Action
+             </h2>
             <p className="text-[#777] text-[11px] sm:text-xs md:text-xs lg:text-sm leading-relaxed md:leading-relaxed mb-5 md:mb-6 text-justify">
               Electrom Communications is a company of strength. And our strength
               is derived from our capable leadership team. Our senior level
@@ -75,7 +75,7 @@ export default function About() {
               representative team will get back to you.
             </p>
           </div>
-          <div className="flex justify-center md:justify-end mt-6 md:mt-0">
+          <div className="flex justify-center md:justify-end mt-6 md:mt-0 order-2 md:order-2">
             <img
               src={about2Img}
               alt="About us"

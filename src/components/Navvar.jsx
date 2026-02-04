@@ -70,9 +70,9 @@ function Navbar() {
   return (
     <nav className="fixed left-0 right-0 z-[9999] bg-[#FFFFFF] border-b border-gray-200 w-full top-[0px]">
       <div className="max-w-[1000px] mx-auto flex items-center justify-between px-4 py-4">
-        <a href="#" className="flex items-center">
+        <button onClick={() => handleSmoothScroll("home")} className="flex items-center cursor-pointer">
           <img src={logo} alt="logo" className="h-[35px] sm:h-[45px] md:h-[55px] brightness-0" />
-        </a>
+        </button>
         <button
           onClick={() => setOpen(!open)}
           className="lg:hidden text-black text-2xl"

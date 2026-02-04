@@ -41,11 +41,12 @@ export default function Achievements() {
               {slides[index].title}
             </h2>
 
-            <p className="text-white text-sm md:text-base mb-2 leading-relaxed">
+            <p className="text-white text-xs sm:text-sm md:text-base mb-2 leading-relaxed">
               {slides[index].desc}
             </p>
           </div>
-          <div className="flex justify-center md:justify-start gap-4 mt-3 self-start">
+          <div className="flex justify-center mt-3 gap-2">
+
             <button
               onClick={prevSlide}
               className="w-10 h-10 rounded-full bg-white text-black hover:bg-gray-200 transition"

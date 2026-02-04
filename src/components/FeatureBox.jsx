@@ -2,13 +2,13 @@ import React from "react";
 function FeatureBox() {
   return (
     <>
-      <section className="max-w-[1000px] mx-auto px-5 -mt-5 relative z-20">
+      <section className="max-w-[1000px] mx-auto px-2 -mt-5 relative z-20">
         <div className="bg-[#051A53] border-l-[8px] border-[#FF5E14] p-8 text-white shadow-lg max-w-[600px]">
           <h1 className="font-bold text-sm mb-3">
             Revolutionizing Global Connectivity
           </h1>
 
-          <p className="text-sm leading-snug mb-3">
+          <p className="md:text-sm text-xs leading-snug mb-3 text-left">
             At Electrom Communications, we are committed to revolutionizing
             global connectivity through advanced technology and innovation.
           </p>

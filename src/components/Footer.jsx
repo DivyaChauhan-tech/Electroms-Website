@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="mb-8 leading-loose">
             <a className="fw-bold d-flex align-items-center mb-8" href="#">
-              <img src={footer1} alt="logo" className="h-12 w-auto mb-2" />
+              <img src={footer1} alt="logo" className="h-10 sm:h-12 md:h-12 w-auto mb-2" />
             </a>
 
             <p className="text-xs text-left mb-4">

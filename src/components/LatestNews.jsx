@@ -92,8 +92,8 @@ function LatestNews() {
                     className="w-[35px] sm:w-[40px] md:w-[45px] flex-shrink-0"
                   />
 
-                  <div className="text-[14px] sm:text-[15px] text-black leading-snug flex-1 overflow-hidden">
-                    <p className="line-clamp-2">{item.text}</p>
+                  <div className="text-[12px] sm:text-[14px] md:text-[15px] text-black leading-snug flex-1">
+                    <p>{item.text}</p>
                   </div>
                 </div>
               ))}

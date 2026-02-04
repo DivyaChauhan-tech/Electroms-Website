@@ -38,25 +38,21 @@ export default function MissionVision() {
         </p>
       </div>
 
-      {/* ✅ Cards */}
       <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-6">
         {data.map((item) => (
           <div
             key={item.id}
             className="bg-white border border-[#ddd] shadow-lg p-4 sm:p-5 text-center hover:shadow-xl transition"
           >
-            {/* Icon */}
             <div
               className={`w-12 h-12 ${item.bg} rounded-full flex items-center justify-center mx-auto mb-6 shadow-md`}
             >
               <img src={item.img} alt={item.title} className="w-6" />
             </div>
 
-            {/* Title */}
             <h5 className="font-bold text-sm sm:text-base md:text-lg mb-3 max-w-xs mx-auto px-2">{item.title}</h5>
 
-            {/* Description */}
-            <p className="text-sm text-gray-500 px-2">
+            <p className="text-xs sm:text-sm text-gray-500 px-2">
               {item.desc}
             </p>
           </div>
